@@ -1,5 +1,5 @@
-#WORK IN PROGRESS
 
+#Project Management Tool
 Your mission should you choose to accept it, is to harness the power of pure / vanilla JavaScript in order to build a project management tool that will track all the work made by your team. There is no need for a visual interface (UI). Focus on working with functions and objects only.
 
 Here below you’ll find the requirements for the application and a breakdown of the fields to be used.
@@ -13,8 +13,7 @@ Each ticket has multiple possible states, which are described below.
 
 Below you can find the breakdown of fields for each ticket.
 
-*Task*
-
+**Task**
 * Id
 * Name
 * Sprint
@@ -33,8 +32,7 @@ Below you can find the breakdown of fields for each ticket.
 * UpdatedAt
 * CreatedAt
 
-*Bug*
-
+**Bug**
 * Id
 * Name
 * Sprint
@@ -54,7 +52,7 @@ Below you can find the breakdown of fields for each ticket.
 * CreatedAt
 * Tasks
 
-*Feature*
+**Feature**
 * Id
 * Name
 * Sprint
@@ -76,13 +74,15 @@ Below you can find the breakdown of fields for each ticket.
 * Tasks
 
 
-*The ID is generated when the ticket is created, is unique and cannot be changed.*
-*CreatedBy will be filled on creation with the name of the user that created that ticket*
-*The fields UpdatedAt and CreatedAt are updated automatically on ticket creation or change.*
+**The ID is generated when the ticket is created, is unique and cannot be changed.**
+
+**CreatedBy will be filled on creation with the name of the user that created that ticket**
+
+**The fields UpdatedAt and CreatedAt are updated automatically on ticket creation or change.**
 
 
 
-Functionality needed:
+###Functionality needed:
 
 A user needs to be able to create any kind of ticket with some initial values. All newly created tickets will have the status New.
 
@@ -100,9 +100,9 @@ A user can create sprints to whom the tickets will be assigned.
 
 A user can filter the tickets by sprint or status.
 
-Requirements
+###Requirements
 
 You have 1 working day from the moment you receive the problem to ask any relevant question about the specifications.
 You have 3 working days to submit your code that implements the above mentioned functionalities. Adding the code on a git repository is recommended, but not mandatory.
 
-* We will take into consideration your coding style and your code organization and structure as well as the correctness of the provided solution.
+ **We will take into consideration your coding style and your code organization and structure as well as the correctness of the provided solution.**
