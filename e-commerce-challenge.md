@@ -18,69 +18,57 @@ To further help you in your quest we’ve provided some diagrams for each class.
 
 **_Good luck in your quest and may the powers of JS be forever on your side !_**
 
-###Product
-|| Product ||
+
+| Product | #
 | ------ | :----:|
 | **id** | integer - unique |
 | **name**| text|
 | **image** | text |
 | **stock** | integer |
 | **price** | integer |   
-| ------ |
 | *create( )* |
 | *edit( )* |
 | *delete( )* |
-| ------ |
 
-###Project
-|| Project  ||
+
+
+|Project|#
 | ------ | :----:|
 | **id** | integer - unique |
 | **name**| text|
 | **products** | Product |  
-| ------ |
 | *createProject( )* |
 | *removeProject( )* |
 | *addProductToProject( )* |
 | *removeProductFromProject( )* |
-| ------ |
 
 
-###Cart
-|| Cart  ||
+| Cart  |#
 | ------ | :----:|
 | **total** | integer |
 | **products**| ProductList |
-| ------ |
 | *addToCart( )* |
 | *removeFromCart( )* |
-| ------ |
 
-###MiniCart
-|| MiniCart  ||
+
+| MiniCart|#
 | ------ | :----:|
 | **total** | integer |
 | **count**| integer|
-| ------ |
 | *goToCart( )* |
 | *updateMiniCart( )* |
-| ------ |
 
 
-###ProductList
-|| ProductList  ||
+|ProductList|#
 | ------ | :----:|
 | **products**| Product |
-| ------ |
 | *addToList( )* |
 | *removeFromList( )* |
-| ------ |
 
-###ProjectsList
-|| ProjectsList  ||
+
+|ProjectsList|#
 | ------ | :----:|
 | **projects**| Project |
-| ------ |
 | *addToList( )* |
 | *removeFromList( )* |
-| ------ |
+
