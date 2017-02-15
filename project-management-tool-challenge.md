@@ -13,69 +13,72 @@ Each ticket has multiple possible states, which are described below.
 
 Below you can find the breakdown of fields for each ticket.
 
-Task
-Id
-Name
-Sprint
-Assignee
-CreatedBy
-Description
-Status
-New
-In progress
-Feedback
-Rework
-Resolved
-Messages
-Author
-Text
-UpdatedAt
-CreatedAt
+*Task*
 
-Bug
-Id
-Name
-Sprint
-Assignee
-CreatedBy
-Description
-Status
-New
-In progress
-Ready For Testings
-Rework
-Resolved
-Messages
-Author
-Text
-UpdatedAt
-CreatedAt
-Tasks
+* Id
+* Name
+* Sprint
+* Assignee
+* CreatedBy
+* Description
+* Status
+  * New
+  * In progress
+  * Feedback
+  * Rework
+  * Resolved
+* Messages
+  * Author
+  * Text
+* UpdatedAt
+* CreatedAt
 
-Feature
-Id
-Name
-Sprint
-Assignee
-CreatedBy
-Description
-Status
-New
-In progress
-Ready For Testing
-Feedback
-Rework
-Resolved
-Messages
-Author
-Text
-UpdatedAt
-CreatedAt
-Tasks
+*Bug*
 
-* The ID is generated when the ticket is created, is unique and cannot be changed.
-* CreatedBy will be filled on creation with the name of the user that created that ticket.
-* The fields UpdatedAt and CreatedAt are updated automatically on ticket creation or change.
+* Id
+* Name
+* Sprint
+* Assignee
+* CreatedBy
+* Description
+* Status
+  * New
+  * In progress
+  * Ready For Testings
+  * Rework
+  * Resolved
+* Messages
+  * Author
+  * Text
+* UpdatedAt
+* CreatedAt
+* Tasks
+
+*Feature*
+* Id
+* Name
+* Sprint
+* Assignee
+* CreatedBy
+* Description
+* Status
+  * New
+  * In progress
+  * Ready For Testing
+  * Feedback
+  * Rework
+  * Resolved
+* Messages
+  * Author
+  * Text
+* UpdatedAt
+* CreatedAt
+* Tasks
+
+
+*The ID is generated when the ticket is created, is unique and cannot be changed.*
+*CreatedBy will be filled on creation with the name of the user that created that ticket*
+*The fields UpdatedAt and CreatedAt are updated automatically on ticket creation or change.*
 
 
 
