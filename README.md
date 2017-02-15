@@ -1,2 +1,2 @@
-# web-internship-problems
-Web Internship Problems
+# web-internship-challenges
+Web Internship Challenges
