@@ -1,6 +1,6 @@
 #E-commerce Challenge
 
-We want to build an e-commerce solution. Your mission, shall you choose to accept it, would be to closely mimic the specific behavior of such a store.
+Your mission should you choose to accept it, is to harness the power of pure / vanilla JavaScript in order to build an e-commerce solution for a store. There is no need for a visual interface (UI). Focus on working with functions and objects only.
 
 **To help we came up with a story:**
 
