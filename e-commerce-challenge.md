@@ -1,6 +1,6 @@
 #E-commerce Challenge
 
-We want to build an e-commerce solution. Your mission, shall you choose to accept it, would be to closely mimic the specific behavior of such an store.
+We want to build an e-commerce solution. Your mission, shall you choose to accept it, would be to closely mimic the specific behavior of such a store.
 
 **To help we came up with a story:**
 
