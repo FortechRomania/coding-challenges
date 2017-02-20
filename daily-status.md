@@ -1,10 +1,10 @@
 #Daily Status
 
-In a far far away land….( Castle Black  ) there was a team of developers that is growing quickly. The problem is that it’s getting harder keep track of the work done by the developers.
+In a far far away land….( Castle Black  ) there is a team of developers that is growing quickly, but they are facing a problem: it’s getting harder keep track of the work done by the developers.
 
-Each morning they had a meeting, each developer would say on which project and what they would work on( a short sentence ). When the team was small this was not a problem, but now that the team is getting bigger and bigger the setup is problematic. it was time consuming and harder to keep track.
+Each morning a meeting is held, each developer says on which project and what task he/she will work on( a short sentence ). When the team was small this was not a problem, but now that the team is getting bigger and bigger this setup is problematic. It's time consuming and hard to keep track.
 
-Your mission, should you choose to accept would be to help the team manager by building with an app that keeps track on the work done daily by each developer. You task is to simulate a situation in which X developers that can potentially work on Y projects have Y messages to store, one for each project they work on. 
+Your mission, should you choose to accept it is be to help the team manager by building an app that keeps track of the work done daily by each developer. You should simulate a situation in which X developers that can potentially work on Y projects have Z messages to store, one for each project they work on. A developer can work on one ore more projects.
 
 The following entities should help you start the task.
 
