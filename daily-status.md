@@ -6,7 +6,7 @@ Each morning a meeting is held, each developer says on which project and what ta
 
 Your mission, should you choose to accept it is be to help the team manager by building an app that keeps track of the work done daily by each developer. You should simulate a situation in which X developers that can potentially work on Y projects have Z messages to store, one for each project they work on. A developer can work on one ore more projects.
 
-It's up to you how complex the application will be: You can go from a simple console based app that will work on Chrome console all the way to a full app with front-end. The choice is yours.
+It's up to you how complex the application will be: You can go from a simple console based app that will work on Chrome console or NodeJS powered, all the way to a full app with front-end. The choice is yours.
 
 The following entities should help you start the task.
 
