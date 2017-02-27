@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fortech thing</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel='stylesheet' href='stylesheets/app.css' />      
+    
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+     
+  </head>
+  <body>
+    
+      <div class="container-fluid">
+  
+  <h1>Fortech Internship Project</h1>
+  
+  <!-- Developer management -->
+  <h2>Developers</h2>
+  <div id='devs' class="singlebox">
+   <div class='list' >
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        
+      </tr>
+    </thead>
+      <tbody id='devList'>
+        
+      </tbody>
+      </table>
+    </div>
+   <div class='modify'>
+     <div id='addDev'>
+     <h4>Add Developer</h4>
+      <input type='text' placeholder='dev name' id="addDevName">
+      <button id='entDev' class="btn btn-primary">Enter</button>
+     </div>
+     <div id='removeDev'>
+     <h4>Remove Developer</h4>
+      <input type='text' placeholder='dev name' id="removeDevName">
+      <button id='removeDev' class="btn btn-danger">Remove :( </button>
+     </div>
+     <h3 id="warnD">Must Provide a Name</h3>
+   </div> 
+  </div>
+
+<!-- Project management -->
+  <h2>Projects</h2>
+  <div id='projects' class="singlebox"> 
+    <div class='list' >
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+      </tr>
+    </thead>
+      <tbody id='projList'>
+        
+      </tbody>
+      </table>
+    </div>
+    <div class='modify'>
+    <div id='addproj'>
+     <h4>Add Project</h4>
+      <input type='text' placeholder='project name' id="addProjName">
+      <button id='entProj' class="btn btn-primary">Enter</button>
+     </div>
+     <div id='removeProj'>
+     <h4>Remove Project</h4>
+      <input type='text' placeholder='Project Id' id="removeProjId">
+      <button id='removeProj' class="btn btn-danger">Remove </button>
+     </div>
+      <h3 id="warnP">Must provide a project name </h3>
+    </div>
+  </div>
+   
+<!-- Statuses management -->
+  <h2>Statuses</h2>
+  <div id='statuses' class="singlebox">
+    <div class='listType2' >
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th>Id</th>
+        <th>Dev</th>
+        <th>Project</th>
+        <th>Date</th>
+        <th>Working On</th>
+      </tr>
+    </thead>
+      <tbody id='statusList'>
+        
+      </tbody>
+      </table>
+    </div>
+    
+    <div class='modifyType2'>
+      <h4>Add Status</h4>
+    <div id='addStat'>
+     
+      <input type='text' placeholder='Developer id' id="addStatDev">
+      <input type='text' placeholder='Project id' id="addStatProj">
+      <input type='date' placeholder='Date' id="addStatDate">
+      <textarea  rows='3' placeholder='Short description' id="addStatDesc"></textarea><button id='entStat' class="btn btn-primary">Enter</button>
+     </div>
+     <h4>Remove Status</h4>
+     <div id='removeStat'>
+     
+      <input type='text' placeholder='Stat id' id="removeStatId">
+      <button id='removeStat' class="btn btn-danger">Remove </button>
+       <button id="sortAsc" class="asc btn btn-primary">Sort by Date Ascending</button>
+     </div>
+      
+     <div id='modifyStat'>
+     <h4>Modify Status</h4>
+      <input type='text' placeholder='Stat id' id="modStatId">
+       <textarea rows='3' placeholder="Modified Description" id="modStatDesc"></textarea>
+      <button id='modStat' class="btn btn-warning">Modify </button>
+     </div> 
+      <div id='warnings'>
+     <h4 id="warnDev">A Dev with that id does not exist,try again.</h4>
+     <h4 id="warnStat">A Status with that id does not exist,try again.</h4>
+     <h4 id="warnProj">A Project with that id does not exist, try again.</h4>
+     </div>
+    </div>
+   </div>
+
+<!-- Query Statuses -->
+  <h2>Query statuses</h2>
+<div id='queries' class="singlebox">
+  <div class='listType2' >
+  <table class="table table-striped">
+      <thead>
+      <tr>
+        <th>Id</th>
+        <th>Dev</th>
+        <th>Project</th>
+        <th>Date</th>
+        <th>Working On</th>
+      </tr>
+    </thead>
+      <tbody id='queryList'>
+        
+      </tbody>
+      </table>
+  </div>
+  <div class='modifyType2'>
+  <button id="todayStat" class="btn btn-primary">Get Today's Statuses</button>
+  <div id="period">
+    <h4>Search a certain project's statuses</h4>
+    <input type='text' placeholder="Project Id" id='periodId'></input>
+    <br>
+    <div id='perSelect'>
+    <span>From</span>
+    <input type='date' placeholder="Project Date" id='startTime'></input>
+    <span>To</span>
+    <input type='date' placeholder="Project Date" id='endTime'></input>
+  
+    <button id="periodStat" class="btn btn-primary"> Enter</button>
+     </div>
+  </div>
+    <div id='DevStats'>
+      <h4>Search a Developer's Project Statuses</h4>
+      <input type='text' placeholder='Developer Id' id="devQueryId"></input>
+      <button id='devQuery' class="btn btn-primary">Enter</button>
+    </div>
+<h4 id="warnDev2">A Dev with that id does not exist,try again</h4>
+     <h4 id="warnStat2">A Status with that id does not exist,try again</h4>
+     <h4 id="warnProj2">A Project with that id does not exist, try again</h4>
+  </div>
+   
+</div>
+
+</div>
+      
+      
+      <script type="text/javascript" src="/javascripts/appjs.js"></script>
+  </body>
+ 
+  </html>

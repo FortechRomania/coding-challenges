@@ -1,0 +1,122 @@
+
+
+body{
+  background-color:#373737;
+}
+h1 {
+  text-align: center;
+  margin:20px;
+  color:white;
+}
+h2{
+  text-align:center;
+  margin-bottom:10px;
+  margin-top:20px;
+  color:white;
+}
+
+/* main style for every box */
+.singlebox {
+  background-color:#6D7993;
+  border: solid;
+  height: 400px;
+  width:100%;
+  display: flex;
+  margin-bottom: 10px;
+  border-radius: 14px;
+  min-width:1240px;
+}
+
+/* special style for the statuses box */
+#statuses {
+  height: 550px;
+}
+#statuses h4 {
+  margin: 10px;
+}
+#statuses #entStat {
+  position: relative;
+  top: -18px;
+  left: 10px;
+}
+#statuses #modStatDesc {
+  position: relative;
+  left: -210px;
+}
+#statuses #modStatId {
+  position: relative;
+  left: 420px;
+  top: -64px;
+}
+#statuses #modStat {
+  position: relative;
+  left: 430px;
+  top: -58px;
+}
+
+/* special style for the queries box */
+#queries #todayStat {
+  margin: 10px;
+}
+#queries h4 {
+  margin-left: 10px;
+}
+#queries #perSelect {
+  margin-left: 10px;
+}
+
+/* styles for the 2 main elements in each box (the list and the modification functionality ) */
+.list {
+  width: 30%;
+  border-right: solid;
+  overflow: auto;
+  background-color:#F4F4F4;
+}
+
+.modify {
+  width: 70%;
+  padding: 20px;
+}
+
+.listType2 {
+  background-color:#F4F4F4;
+  width: 45%;
+  border-right: solid;
+  overflow: auto;
+}
+
+.modifyType2 {
+  width: 55%;
+}
+
+/* table style*/
+td {
+  font-weight: bold;
+}
+
+th {
+  font-weight: bold;
+  font-size: 19px;
+  /* yes, 19! sue me!*/
+}
+/* input style*/
+input {
+  margin: 5px;
+  margin-left: 10px;
+}
+
+textarea {
+  margin: 5px;
+  margin-left: 10px;
+  width: 405px;
+}
+
+/* warning positioning*/
+#warnings {
+  position: relative;
+  top: -50px;
+}
+
+#sortAsc{
+  margin-left:120px;
+}
