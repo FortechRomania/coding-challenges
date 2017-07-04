@@ -1,119 +1,87 @@
 
 # Project Management Tool
 
-Your mission should you choose to accept it, is to harness the power of pure / vanilla JavaScript in order to build a project management tool that will track all the work made by your team. There is no need for a visual interface (UI). Focus on working with functions and objects only.
+Your mission should you choose to accept it, is to harness the power of pure / vanilla JavaScript in order to build a project management tool that will track all the work made by your team. A visual interface (UI) is optional but it's recommended. Focus on working with functions and objects first.
 
-Here below you’ll find the requirements for the application and a breakdown of the fields to be used.
+Below you’ll find the requirements for the application and a breakdown of the fields to be used.
 
 You shall deliver the code for this application and picture/s for the diagrams that illustrate your understanding of the application logic.
 
 The application will handle a single project (at this step), but that project has more than 1 versions/milestones (called sprints).
-A user can create 3 types of tickets for a project: features, bugs, and tasks. Each of these tickets belong to a certain sprint inside the project. Features and bugs can have multiple tasks (called subtasks), which are basically the breakdown of the bigger tickets - features and bugs.
+A user can create 3 types of issues for a project: features, bugs, and tasks. Each of these issues belongs to a certain sprint inside the project. Features and bugs can have multiple tasks (called subtasks), which are basically the breakdown of the bigger issues - features and bugs.
 
-Each ticket has multiple possible states, which are described below.
+Each issue has multiple possible states, which are described below:
+* New
+* In progress
+* Feedback
+* Rework
+* Resolved
 
-Below you can find the breakdown of fields for each ticket.
 
-| Issue | #
+Checkout the breakdown of fields for each big component of the project.
+
+| User | #
 | ------ | :----:|
 | **id** | numeric - unique |
 | **name** | text|
-| **sprint** | text|
-| **Assignee** | numeric |
-| **CreatedBy** | numeric |
-| **Description** | text |
-| **Status** | text |
-| **Messages** | text |
-| **UpdatedAt** | date |
-| **CreatedAt** | date |
+
+| Issue | #
+| ------ | :----: |
+| **id** | numeric - unique |
+| **type** | string |
+| **name** | text|
+| **sprint** | sprint.id |
+| **createdBy** | user.id |
+| **assignee** | user.id |
+| **description** | text |
+| **status** | status.id |
+| **tasks** | issue.ids |
+| **comments** | comment.ids |
+| **updatedAt** | date |
+| **createdAt** | date |
+
+| Project | #
+| ------ | :----:|
+| **id** | numeric - unique |
+| **sprints** | sprint.ids |
+
+| Sprint | #
+| ------ | :----:|
+| **id** | numeric - unique |
+| **name** | text |
+
+| Comments | #
+| ------ | :----:|
+| **id** | numeric - unique |
+| **name** | text |
 
 
-**Task**
-* Id
-* Name
-* Sprint
-* Assignee
-* CreatedBy
-* Description
-* Status
-  * New
-  * In progress
-  * Feedback
-  * Rework
-  * Resolved
-* Messages
-  * Author
-  * Text
-* UpdatedAt
-* CreatedAt
+**The ID is generated when the issue is created, is unique and cannot be changed.**
 
-**Bug**
-* Id
-* Name
-* Sprint
-* Assignee
-* CreatedBy
-* Description
-* Status
-  * New
-  * In progress
-  * Ready For Testings
-  * Rework
-  * Resolved
-* Messages
-  * Author
-  * Text
-* UpdatedAt
-* CreatedAt
-* Tasks
+**CreatedBy will be filled on creation with the ID of the user that created that issue**
 
-**Feature**
-* Id
-* Name
-* Sprint
-* Assignee
-* CreatedBy
-* Description
-* Status
-  * New
-  * In progress
-  * Ready For Testing
-  * Feedback
-  * Rework
-  * Resolved
-* Messages
-  * Author
-  * Text
-* UpdatedAt
-* CreatedAt
-* Tasks
+**The fields UpdatedAt and CreatedAt are updated automatically on issue creation or change.**
 
-
-**The ID is generated when the ticket is created, is unique and cannot be changed.**
-
-**CreatedBy will be filled on creation with the name of the user that created that ticket**
-
-**The fields UpdatedAt and CreatedAt are updated automatically on ticket creation or change.**
-
+**Only issues of type BUG or FEATURE can have subtasks.**
 
 
 ### Functionality needed:
 
-A user needs to be able to create any kind of ticket with some initial values. All newly created tickets will have the status New.
+A user needs to be able to create any kind of issue with some initial values. All newly created issues will have the status __New__.
 
-The user needs to see an overview of the current project, broken down per sprints, how many tickets in each status, how many features, how many bugs, etc.
+The user needs to see an overview of the current project, broken down per sprints, how many issues in each status, how many features, how many bugs, etc.
 
-Apart for the fields mentioned above, the user can change any field of a ticket through an update action.
+Apart for the fields mentioned above, the user can change any field of an issue through an __UPDATE__ action.
 
 If the user moves the bug or feature in a different sprint, the subtasks will have to be moved as well.
 
-Completing all the tasks of a bug or feature will change the status of that ticket to Ready For Testing.
+Completing all the tasks of a __bug__ or __feature__ will change the status of that issue to Ready For Testing.
 
-As soon as a task changes its status from New to any other, its corresponding ticket will change status as well to In progress.
+As soon as a task changes its status from __New__ to any other, it's corresponding issue will change it's status as well to it's parent status.
 
-A user can create sprints to whom the tickets will be assigned.
+A user can create sprints to which the issues will be assigned.
 
-A user can filter the tickets by sprint or status.
+A user can filter the issues by sprint or status.
 
 ### Requirements
 
