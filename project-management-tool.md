@@ -1,5 +1,5 @@
 
-#Project Management Tool
+# Project Management Tool
 
 Your mission should you choose to accept it, is to harness the power of pure / vanilla JavaScript in order to build a project management tool that will track all the work made by your team. There is no need for a visual interface (UI). Focus on working with functions and objects only.
 
