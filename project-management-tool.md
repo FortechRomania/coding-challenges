@@ -14,6 +14,20 @@ Each ticket has multiple possible states, which are described below.
 
 Below you can find the breakdown of fields for each ticket.
 
+| Issue | #
+| ------ | :----:|
+| **id** | numeric - unique |
+| **name** | text|
+| **sprint** | text|
+| **Assignee** | numeric |
+| **CreatedBy** | numeric |
+| **Description** | text |
+| **Status** | text |
+| **Messages** | text |
+| **UpdatedAt** | date |
+| **CreatedAt** | date |
+
+
 **Task**
 * Id
 * Name
@@ -83,7 +97,7 @@ Below you can find the breakdown of fields for each ticket.
 
 
 
-###Functionality needed:
+### Functionality needed:
 
 A user needs to be able to create any kind of ticket with some initial values. All newly created tickets will have the status New.
 
@@ -101,7 +115,7 @@ A user can create sprints to whom the tickets will be assigned.
 
 A user can filter the tickets by sprint or status.
 
-###Requirements
+### Requirements
 
 You have 1 working day from the moment you receive the problem to ask any relevant question about the specifications.
 You have 3 working days to submit your code that implements the above mentioned functionalities. Adding the code on a git repository is recommended, but not mandatory.
