@@ -1,4 +1,5 @@
-#Daily Status
+
+# Daily Status
 
 In a far far away land….( Castle Black  ) there is a team of developers that is growing quickly, but they are facing a problem: it’s getting harder to keep track of the work done by the developers.
 
@@ -56,6 +57,3 @@ The following entities should help you start the task.
 | *modifyStatus( )* |
 | *deleteFromListStatus( )* |
 | *dayStatusSummary( )* |
-
-
-

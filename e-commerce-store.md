@@ -1,4 +1,4 @@
-#E-commerce Challenge
+# E-commerce Challenge
 
 Your mission should you choose to accept it, is to harness the power of pure / vanilla JavaScript in order to build an e-commerce solution for a store. There is no need for a visual interface (UI). Focus on working with functions and objects only.
 
@@ -71,4 +71,3 @@ To further help you in your quest we’ve provided some diagrams for each class.
 | **projects**| Project |
 | *addToList( )* |
 | *removeFromList( )* |
-
