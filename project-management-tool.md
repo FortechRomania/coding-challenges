@@ -85,7 +85,8 @@ A user can filter the issues by sprint or status.
 
 ### Requirements
 
-You have 1 working day from the moment you receive the problem to ask any relevant question about the specifications.
-You have 3 working days to submit your code that implements the above mentioned functionalities. Adding the code on a git repository is recommended, but not mandatory.
+You have **1 working day** from the moment you receive the problem to ask any relevant question about the specifications.
+You have **3 working days** to submit your code that implements the above mentioned functionalities.
+The code should be added to a **public git repository**, we strongly recomment github for this.
 
  **We will take into consideration your coding style and your code organization and structure as well as the correctness of the provided solution.**
