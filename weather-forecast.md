@@ -5,7 +5,7 @@ Create a webpage that contains the Weather Forecast widget in the following imag
 ![weather forecast](https://i.imgur.com/ULKuEgg.png)
 
 ## Requirements
-Implement the design in HTML/CSS so it resembles the image as close as possible.
+#### Implement the design in HTML/CSS so it resembles the image as close as possible.
   - use the Roboto and Quicksand fonts from Google font directory
   - make sure the widget looks same in Chrome, Firefox, Internet Explorer ( Edge ) and Safari
   - for the background images pick some free images from https://www.pexels.com/
