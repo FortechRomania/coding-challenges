@@ -9,6 +9,7 @@ Create a webpage that contains the Weather Forecast widget in the following imag
   - use the Roboto and Quicksand fonts from Google font directory
   - make sure the widget looks same in Chrome, Firefox, Internet Explorer ( Edge ) and Safari
   - for the background images pick some free images from https://www.pexels.com/
+  - for the weather icons use this library: https://erikflowers.github.io/weather-icons/
 
 #### Implement the Javascript functionality so that whenever the user changes the city, the weather forecast changes as well.
   - to get the weather data create an account and follow the instructions on https://openweathermap.org/api.
@@ -20,4 +21,4 @@ Create a webpage that contains the Weather Forecast widget in the following imag
   - styles.css
   - script.js
 
-*Note:* You can't use any framework or library
+*Note:* **DO NOT** use any other framework or library than the one for the icons.
