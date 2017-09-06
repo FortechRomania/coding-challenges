@@ -2,6 +2,8 @@
 # Weather Forecast Coding Challenge
 
 Create a webpage that contains the Weather Forecast widget in the following image:
+![weather forecast](http://imgur.com/a/8YMzJ)
+
 http://imgur.com/a/8YMzJ
 
 
