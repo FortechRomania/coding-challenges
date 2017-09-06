@@ -1,5 +1,5 @@
 
-# Web Internship Challenges
+# Coding Challenges
 
 Check out these cool internship challenges:
 - [Daily Status](https://github.com/FortechRomania/web-internship-challenges/blob/master/daily-status.md)
