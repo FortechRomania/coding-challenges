@@ -2,7 +2,8 @@
 # Weather Forecast Coding Challenge
 
 Create a webpage that contains the Weather Forecast widget in the following image:
-![weather forecast](http://imgur.com/a/8YMzJ)
+![weather forecast](https://i.imgur.com/ULKuEgg.png)
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 http://imgur.com/a/8YMzJ
 
