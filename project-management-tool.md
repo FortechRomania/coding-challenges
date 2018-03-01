@@ -10,12 +10,13 @@ You shall deliver the code for this application and picture/s for the diagrams t
 The application will handle a single project (at this step), but that project has more than 1 versions/milestones (called sprints).
 A user can create 3 types of issues for a project: features, bugs, and tasks. Each of these issues belongs to a certain sprint inside the project. Features and bugs can have multiple tasks (called subtasks), which are basically the breakdown of the bigger issues - features and bugs.
 
-Each issue has multiple possible states, which are described below:
+Each issue has multiple possible states ( status ), which are described below:
 * New
 * In progress
 * Feedback
 * Rework
 * Resolved
+* Ready for Testing
 
 
 Checkout the breakdown of fields for each big component of the project.
