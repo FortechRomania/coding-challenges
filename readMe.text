@@ -1,0 +1,10 @@
+Project for Fortech internship
+
+used Bootstap and jQuery, Express for backend configuration
+
+html file: views/ index.ejs
+css file : public/stylesheets/app.css
+javascript public/javascripts/file: appjs.js
+
+full app code at: https://github.com/Mankirk/FortechStuff
+app running at :  https://office-managerthing.herokuapp.com
